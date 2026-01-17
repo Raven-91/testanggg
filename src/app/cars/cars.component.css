@@ -317,6 +317,24 @@
   border-color: red;
 }
 
+.order-form textarea {
+  width: 100%;
+  height: 68px;
+  padding: 24px 20px;
+  box-sizing: border-box;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  margin-bottom: 15px;
+  font-size: 16px;
+  outline: none;
+  resize: vertical;
+}
+
+.order-form textarea.error {
+  border-color: red;
+}
+
 
 .footer {
   padding: 47px 0;
